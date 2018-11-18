@@ -62,7 +62,7 @@ public class ServiceTest {
 
     @Test
     /**
-     * 模板化使用thymeleaf
+     * 模板化使用了thymeleaf
      */
     public void testTmeplateMainlTest() throws MessagingException {
         Context context = new Context();
