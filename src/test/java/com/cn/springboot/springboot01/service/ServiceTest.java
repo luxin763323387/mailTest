@@ -54,7 +54,7 @@ public class ServiceTest {
     public void sendInlineResourceMailTest(){
         String imgPath = "D:/TIM图片20181114002152.jpg";
         String rscId = "neo001";
-        String content = "<html><body> 这是有图片的邮件:<img src=\'cid:" + rscId
+        String content = "<html><body> 这是有图片的邮件:<img src=\'cid:" +  rscId
                 +"\'></img></body><html>";
         mailService.sendInlinResourceMail("abc123456@163.com","这是第一份图片邮件",content,imgPath,rscId);
 
